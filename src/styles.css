@@ -1,7 +1,81 @@
-h1 {
+body {
+  background: #181525;
   font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+    url("../images/uluru.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 220px 0;
+}
+
+h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 36px;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+}
+
+.learn_more {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #272044;
+  text-decoration: none;
+  background-color: white;
+  padding: 15px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 40px 0;
+  }
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
 }
