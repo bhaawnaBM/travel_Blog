@@ -9,6 +9,16 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
     url("../images/uluru.jpg");
@@ -60,7 +70,34 @@ h3 {
 }
 
 footer {
-  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url("../images/footerImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+footer ul,
+p {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e9e6e6;
+  opacity: 0.8;
+  padding: 0;
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+
+footer a {
+  color: #e9e6e6;
+}
+
+footer h3 {
+  margin: 20px;
 }
 
 @media (max-width: 900px) {
