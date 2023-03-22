@@ -62,8 +62,6 @@ main section {
 }
 
 main h2 {
-  width: 536px;
-  height: 120px;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -94,7 +92,7 @@ main p {
 
 main img {
   width: 400px;
-  height: 420px;
+  height: 400px;
 }
 
 footer ul,
@@ -179,6 +177,10 @@ footer a {
   main img,
   p {
     max-width: 100%;
+  }
+
+  main section {
+    text-align: center;
   }
 
   footer {
