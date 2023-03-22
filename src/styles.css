@@ -9,9 +9,10 @@ body {
   margin: 0 auto;
 }
 
-.grid {
+.footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 50px;
 }
 
 section {
@@ -88,16 +89,11 @@ p {
   opacity: 0.8;
   padding: 0;
   list-style: none;
-  margin: 20px;
   padding: 0;
 }
 
 footer a {
   color: #e9e6e6;
-}
-
-footer h3 {
-  margin: 20px;
 }
 
 @media (max-width: 900px) {
@@ -114,5 +110,14 @@ footer h3 {
 
   h3 {
     font-size: 12px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    padding: 10px;
+    margin: 0 auto;
   }
 }
