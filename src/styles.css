@@ -169,7 +169,7 @@ main section {
   main img,
   p {
     text-align: left;
-    max-width: 60%;
+    max-width: 100%;
   }
 
   footer {
