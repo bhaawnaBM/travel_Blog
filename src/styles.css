@@ -152,8 +152,17 @@ main img {
 }
 
 .cards img {
-  width: 185px;
-  height: 185px;
+  width: 166px;
+  height: 166px;
+}
+
+.cards-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .cards-body {
@@ -211,7 +220,7 @@ footer a {
   grid-gap: 50px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   header {
     padding: 40px 0;
   }
@@ -250,6 +259,14 @@ footer a {
 
   .cards {
     padding: 10px;
+  }
+
+  .cards-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 
   .grid-3-cols {
